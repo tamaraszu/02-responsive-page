@@ -25,7 +25,9 @@ h1 {
 }
 
 main {
-  padding: 16px;
+  max-width: 1100px;  /* wider cap for large screens */
+  margin: 0 auto;
+  padding: 24px 32px; /* more breathing room on the sides */
 }
 
 section {
@@ -120,6 +122,8 @@ a:hover {
 }
 
 .article img {
+  max-width: 100%;
+  display: block;
   margin-bottom: 20px;
   border-radius: 5px;
 }
