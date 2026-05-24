@@ -131,7 +131,7 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-  h1 {
+  h1, #feaured-article {
     font-size: 24px;
   }
 
@@ -145,10 +145,6 @@ a:hover {
 
   #featured-article h2 {
     font-size: 26px;
-  }
-
-  #featured-article {
-    padding: 24px;
   }
 
   main {
