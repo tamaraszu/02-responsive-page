@@ -126,4 +126,38 @@ a:hover {
   display: block;
   margin-bottom: 20px;
   border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  #featured-article h2 {
+    font-size: 26px;
+  }
+
+  #featured-article {
+    padding: 24px;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
 }
